@@ -20,9 +20,10 @@ public class Lab1PartTwo {
         String name2 = Keyboard.nextLine();
         System.out.println("Nice to meet you " + name2);
         
-        
-        
-        
-        
+        System.out.println("\nHi, what's your name?");
+        Scanner Keyboard3 = new Scanner(System.in);
+        String response = Keyboard.nextLine();
+        String name3 = response.substring(11);
+        System.out.println("Nice to meet you " + name3);  
     }
 }
